@@ -1,0 +1,29 @@
+{
+  "name": "ToyJS",
+  "version": "1.0.0",
+  "description": "- 模块化的设计（游戏有游戏模块、展示有展示模块）\r - 默认有编辑器，即在写的的时候，默认是有编辑器的\r - 有机会要集成webgl和webgpu\r ## 设计理念\r - 暴露出的接口，尽量少的去直接修改属性，而是通过各种方法去修改属性\r - 接口要简单，内核要简洁\r - 使用TS\r - 事件及架构借鉴playcanvas\r - 要有层的概念\r 玩具框架",
+  "main": "index.js",
+  "dependencies": {
+    "source-map-loader": "^1.0.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuRuiMeng/ToyJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuRuiMeng/ToyJS/issues"
+  },
+  "homepage": "https://github.com/SuRuiMeng/ToyJS#readme"
+}
