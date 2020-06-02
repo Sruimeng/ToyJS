@@ -1,7 +1,6 @@
-function greeter(person) {
-    return "Hello, " + person;
-}
+export * from "./math/vector3"
+console.log("aaaa");
+console.log("aaaa");
 
-let user1 = "Jane User";
 
-document.body.innerHTML = greeter(user1);
+console.log("hello toys");
