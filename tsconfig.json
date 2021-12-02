@@ -1,41 +1,17 @@
 {
-
-    "compilerOptions": {
-
-        "baseUrl": ".",
-
-        "paths": {
-
-            "@/*": ["src/*"]
-
-        },
-
-        "module": "commonjs",
-
-        "target": "es5",
-
-        "sourceMap": true,
-
-        "allowSyntheticDefaultImports": true,
-
-        "esModuleInterop": true,
-
-        "allowJs": true
-
-    },
-
-    "include": [
-
-        "src/*"
-
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "allowJs": true,
+    "lib": [
+      "es2018",
+      "dom"
     ],
-
-    "exclude": [
-
-        "node_modules",
-
-        "build"
-
-    ]
-
+  },
+  "include": [
+    "./src/*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
 }

@@ -1,2 +1,3 @@
-export * from "./math/vector3"
-console.log("hello toys");
+const  num1:  number = 1;
+
+console.log(num1);
